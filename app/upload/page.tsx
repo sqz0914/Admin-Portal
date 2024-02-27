@@ -1,6 +1,6 @@
 'use client'
 
-import { getSignedURL } from '@/app/api/upload/route';
+import { getSignedURL } from '@/app/upload/getURL';
 import { NextPage } from 'next';
 import React, { useState, useRef, DragEvent } from 'react';
 
