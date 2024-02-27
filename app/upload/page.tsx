@@ -11,7 +11,7 @@ const UploadPage: NextPage = () => {
     const [uploadProgress, setUploadProgress] = useState<number>(0);
     const [isDragOver, setIsDragOver] = useState(false);
     const formRef = useRef<HTMLFormElement>(null);
-    const fileInputRef = useRef(null);
+    const fileInputRef = useRef<HTMLFormElement>(null);
     const [modalMessage, setModalMessage] = useState('');
 
     const handleFileChange = (event: React.ChangeEvent<HTMLInputElement>) => {
