@@ -17,6 +17,7 @@ const allowedFileTypes = [
 
 const maxFileSize = 1048576 * 1000 // 100 MB
 
+/* environment varibales */
 const awsRegion = process.env.NEXT_PUBLIC_AWS_BUCKET_REGION;
 const awsAccessKeyId = process.env.NEXT_PUBLIC_AWS_ACCESS_KEY;
 const awsSecretAccessKey = process.env.NEXT_PUBLIC_AWS_SECRET_ACCESS_KEY;
