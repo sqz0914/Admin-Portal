@@ -39,11 +39,11 @@ const s3Client = new S3Client(s3Config);
 
 export async function getSignedURL(file: File): SignedURLResponse {
     if(!allowedFileTypes.includes(file.type)) {
-      return {failure: "File Type Not Allowed"}
+      return {failure: "File type not allowed"}
     }
 
     if(file.size > maxFileSize) {
-      return {failure: "File Size Too Large"}
+      return {failure: "File size too large"}
     }
 
     const putObjectCommand = new PutObjectCommand({
