@@ -8,7 +8,6 @@ git clone https://github.com/rennie-bee/scd-provider-chatbot.git
 ```
 3. Navigate to the admin-portal directory:
 ```bash
-cd scd-provider-chatbot
 cd admin-portal
 ```
 4. Install Next.js and dependencies:
